@@ -6,6 +6,7 @@
 body{
     background-image: url(https://static.vecteezy.com/system/resources/previews/000/548/137/non_2x/vector-sprinkle-pattern-seamless-in-pastel-color-for-candy-background-baby-fabric-print-bakery-wallpaper-textile-sweet-wrapping-paper-dessert-web-banner-and-cute-card-design.jpg);
 }
+/*Background image was chosen to compliment the theme of the website*/
 nav{
     display: flex;
     justify-content: space-around;
@@ -20,7 +21,6 @@ nav{
     color: #fccfde;
     font-family: 'Dancing Script', cursive;
     font-size: 47px;
-
 }
 .nav-links{
     display: flex;
@@ -42,6 +42,7 @@ nav{
     background-color: #775D75;
     padding: .8em;
 }
+/*Adding a hover effect adds an interesting touch to the nav bar*/
 .banner-image {
     width: 100%;
     display: block; 
@@ -86,6 +87,7 @@ h6 {
 .btn:hover {
     background-color: rgb(228, 116, 133);  
 }
+/*Animation was added to the button to draw users attention to it*/
 .btn {
 	animation: bounce 3.5s infinite;
 }
@@ -128,6 +130,7 @@ h6 {
 .gallery img:hover {
     opacity: 80%;
 }
+/*Image gallery was put together with quality images to compliment the website*/
 .footer {
     left: 0;
     bottom: 0;
@@ -161,6 +164,7 @@ h1 {
     text-align: justify;
     line-height: 25px;
 }
+/*Footer items were arranged to compliment the website and match the theme*/
 h2 {
     margin: 15px 0;
     color: #fccfde;
@@ -218,6 +222,7 @@ li i {
   #myBtn:hover {
     background-color: #555; 
 }
+/*back to top button was added for user convience*/
   
 @media screen and (max-width:768px)  {
     nav{
