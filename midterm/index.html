@@ -4,9 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Montserrat&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <title>Midterm</title>
 </head>
 <body>
-    
+    <nav>
+        <div class="logo">
+            <h4>Sprinkles</h4>
+        </div>
+        <ul class="nav-links">
+            <li><a href="C:\Users\BriaD\Documents\Responsive Web Design II\Projects\dale0132.github.io\midterm\index.html">Home</a></li>
+            <li><a href="C:\Users\BriaD\Documents\Responsive Web Design II\Projects\dale0132.github.io\midterm\about.html">About</a></li>
+            <li><a href="C:\Users\BriaD\Documents\Responsive Web Design II\Projects\dale0132.github.io\midterm\contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="banner">
+        <img class="banner-image" src="images/banner1.jpg">
+        <h6>Welcome To Our Bakery!</h6>
+        <p>Indulge in delicious treats handcrafted fresh every day with the finest ingredients from around the globe.</p>
+        <a class="btn" href="C:\Users\BriaD\Documents\Responsive Web Design II\Projects\dale0132.github.io\midterm\contact.html">Contact Us</a>
+    </div>
+    <div class="gallery">
+        <img src="https://images.pexels.com/photos/192933/pexels-photo-192933.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=200">
+        <img src="https://images.pexels.com/photos/783273/pexels-photo-783273.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=200">
+        <img src="https://images.pexels.com/photos/2267873/pexels-photo-2267873.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=200">
+        <img src="https://images.pexels.com/photos/239578/pexels-photo-239578.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=200">
+        <img src="https://images.pexels.com/photos/2536967/pexels-photo-2536967.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=200">
+        <img src="https://images.pexels.com/photos/1785852/pexels-photo-1785852.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=200">
+</div>
+<div class="footer">
+    <div class="inner-footer">
+        <div class="footer-items">
+            <h1>Sprinkles</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum veniam error suscipit totam. Quia at est, doloremque veniam error fugit ab ea! Libero fugit quaerat ipsum vel? Cumque, ipsam ad!</p>
+        </div>
+        <div class="footer-items">
+            <h2>Quick Links</h2>
+            <div class="border">
+                <ul>
+                    <li><a href="C:\Users\BriaD\Documents\Responsive Web Design II\Projects\dale0132.github.io\midterm\index.html">Home</a></li>
+                    <li><a href="C:\Users\BriaD\Documents\Responsive Web Design II\Projects\dale0132.github.io\midterm\about.html">About</a></li>
+                    <li><a href="C:\Users\BriaD\Documents\Responsive Web Design II\Projects\dale0132.github.io\midterm\contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="map">
+            <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2808.309024184548!2d-75.92759068444933!3d45.26176367909913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccdff548c51b927%3A0xe044a547978b2566!2s1408%20Stittsville%20Main%20St%2C%20Stittsville%2C%20ON%20K2S%201C3!5e0!3m2!1sen!2sca!4v1576101251292!5m2!1sen!2sca" width="400" height="250" frameborder="0" style="border:0;" allowfullscreen=""></iframe></p>
+        </div>
+        <div class="footer-items">
+            <div class="icons1">
+                <ul>
+                    <a href=""><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-snapchat-square fa-2x" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    <div class="footer-bottom">
+            Copyright &copy; Bria Daley 2019. All rights reserved.
+    </div>
+</div>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+<script>
+    var mybutton = document.getElementById("myBtn");
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+        } else {
+        mybutton.style.display = "none";
+        }
+    }
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
 </body>
 </html>

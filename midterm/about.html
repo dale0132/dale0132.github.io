@@ -4,9 +4,111 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Montserrat&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <title>Midterm</title>
 </head>
 <body>
-    
+    <nav>
+        <div class="logo">
+            <h4>Sprinkles</h4>
+        </div>
+        <ul class="nav-links">
+            <li><a href="C:\Users\BriaD\Documents\Responsive Web Design II\Projects\dale0132.github.io\midterm\index.html">Home</a></li>
+            <li><a href="C:\Users\BriaD\Documents\Responsive Web Design II\Projects\dale0132.github.io\midterm\about.html">About</a></li>
+            <li><a href="C:\Users\BriaD\Documents\Responsive Web Design II\Projects\dale0132.github.io\midterm\contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <h5>About</h5>
+    <div class="row">
+      <div class="column" style="background-color:#EAC0C0;">
+        <h3>Our Story</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab magnam quia, officia iusto reprehenderit dolore hic rem deleniti aut ullam repudiandae tenetur nobis adipisci perferendis odit cumque inventore omnis! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea mollitia dolorem earum odit suscipit magnam laboriosam facere. Animi molestiae accusantium est et saepe, nam impedit nobis quo facilis eos cum! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam eligendi cum delectus consequatur, quod rem enim id repudiandae doloremque eveniet blanditiis aperiam earum maxime cumque quis ullam? Aperiam, laboriosam veniam.</p>
+      </div>
+      <div class="column" style="background-color:#FFC4C4;">
+        <h3>Hours</h3>
+        <table style="width:60%">
+          <tr>
+            <td>Monday</td>
+            <td>8:00am-7:30pm<td>
+          </tr>
+          <tr>
+            <td>Tuesday</td>
+            <td>8:00am-7:30pm<td>
+          </tr>
+          <tr>
+            <td>Wednesday</td>
+            <td>8:00am-7:30pm<td>
+          </tr>
+          <tr>
+            <td>Thursday</td>
+            <td>8:00am-7:30pm<td>
+          </tr>
+          <tr>
+            <td>Friday</td>
+            <td>8:00am-7:30pm<td>
+          </tr>
+          <tr>
+            <td>Saturday</td>
+            <td>8:00am-4:00pm<td>
+          </tr>
+          <tr>
+            <td>Sunday</td>
+            <td>Closed<td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="footer">
+        <div class="inner-footer">
+            <div class="footer-items">
+                <h1>Sprinkles</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum veniam error suscipit totam. Quia at est, doloremque veniam error fugit ab ea! Libero fugit quaerat ipsum vel? Cumque, ipsam ad! lorem</p>
+            </div>
+
+            <div class="footer-items">
+                <h2>Quick Links</h2>
+                <div class="border">
+                    <ul>
+                      <li><a href="C:\Users\BriaD\Documents\Responsive Web Design II\Projects\dale0132.github.io\midterm\index.html">Home</a></li>
+                      <li><a href="C:\Users\BriaD\Documents\Responsive Web Design II\Projects\dale0132.github.io\midterm\about.html">About</a></li>
+                      <li><a href="C:\Users\BriaD\Documents\Responsive Web Design II\Projects\dale0132.github.io\midterm\contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="map">
+                    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2808.309024184548!2d-75.92759068444933!3d45.26176367909913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccdff548c51b927%3A0xe044a547978b2566!2s1408%20Stittsville%20Main%20St%2C%20Stittsville%2C%20ON%20K2S%201C3!5e0!3m2!1sen!2sca!4v1576101251292!5m2!1sen!2sca" width="400" height="250" frameborder="0" style="border:0;" allowfullscreen=""></iframe></p>
+            </div>
+            <div class="footer-items">
+                <div class="icons">
+                    <ul>
+                        <a href=""><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-snapchat-square fa-2x" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+                    </ul>
+                </div>
+            </div>
+        <div class="footer-bottom">
+                Copyright &copy; Bria Daley 2019. All rights reserved.
+        </div>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+    <script>
+        var mybutton = document.getElementById("myBtn");
+        window.onscroll = function() {scrollFunction()};
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+            } else {
+            mybutton.style.display = "none";
+            }
+        }
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
 </body>
 </html>
