@@ -1,0 +1,281 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  
+}
+
+.logo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  font-family: 'Playfair Display', serif;
+}
+.nav-links a {
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-size: 20px;
+  color: #707070;
+}
+.nav-links a:hover {
+  color: #F6CAF1;
+}
+.nav-links li {
+  list-style: none;
+}
+h1 {
+  font-family: 'Lora', serif;
+  color: #707070;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 3em;
+}
+h2, h5{
+  color: #707070;
+  font-size: 22px;
+  font-family: 'Lora', serif;;
+}
+p {
+  font-family: 'Lora', serif;
+  display: flex;
+  font-size: 18px;
+}
+.wrapper {
+  float: right;
+  margin-left: 450px;
+  margin-right: 5em;
+  margin-top: 5em;
+}
+.portrait {
+  display: flex;
+  margin-left: 5em;
+  margin-bottom: 5em;
+  margin-top: 5em;
+}
+
+/* .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+} */
+
+/* .row {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+  grid-gap: 15px;
+  margin: 4em;
+  height: auto;
+} */
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  margin: 5em;
+  grid-gap: 15px;    
+}
+
+.row img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #ebdbe6;
+  display: block;
+}
+.inner-footer {
+  width: 100%;
+  margin: auto;
+  padding: 30px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: center;
+}
+.footer-items {
+  width: 25%;
+  padding: 5px 10px;
+  box-sizing: border-box;
+}
+h2 {
+  padding-left: 75px;
+}
+h4 {
+  padding: 10px 0;
+  font-size: 25px;
+  color: #707070;
+  text-transform: uppercase; 
+  margin: 15px 0;
+}
+.footer-items p {
+  color: #707070;
+  font-size: 14px;
+  text-align: justify;
+  font-family: 'Lora', serif;;
+}
+ul {
+  list-style: none;
+  color: #707070;
+  font-size: 15px;
+  letter-spacing: 4px;
+  padding-left: 80px;
+  text-transform: uppercase;
+  font-family:'Playfair Display', serif;
+}
+ul a {
+  text-decoration: none;
+  outline: none;
+  color: #707070;
+  transition: 0.3s;
+}
+ul a:hover {
+  color: #fff;
+}
+#myBtn {
+  position: fixed;
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  background-color: #707070;
+  color: white;
+  cursor: pointer; 
+  padding: 15px; 
+  border-radius: 10px; 
+  font-size: 18px; 
+}
+#myBtn:hover {
+  background-color: #555; 
+}
+  
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .row {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .row {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.contact {
+  background-color: #ebdbe6;
+  box-shadow: 0 0 20px 0 rgba(72,94,116,0.7);
+  padding: 1em;
+  margin: auto;
+}
+h3 {
+  text-align: center;
+  font-size: 2em;
+  color: #4F4F4D;
+  font-family: 'Lora', serif;
+}
+button {
+  background-color: #707070;
+  border-color: #525252;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+button:hover {
+  background-color: #555;
+}
+@media screen and (max-width:768px) {
+  .contact {
+      max-width: 35rem; 
+      margin: 3rem auto;
+      font-size: 1rem;
+      text-align: left;
+  }
+  button {
+      width: 22%;
+      padding-top: .5em;
+      padding-bottom: .5em;
+  }
+  button:hover {
+      transition-duration: 0.3s;
+      background-color: #D38585;
+  }
+  input {
+      width: 100%;
+      padding-bottom: .5em;
+  }
+  textarea {
+      width: 100%;
+      padding-bottom: 1em;
+  }
+}
+@media(min-width:768px){
+  .contact {
+      max-width: 80rem;
+      margin: 3rem auto;
+      text-align: left;
+      font-size: 1.5rem;
+      width: 100%;
+      margin-left: 7rem;
+      margin-right: 3rem auto;
+  }
+  .labels {
+      width: 44%;
+      float: left;
+      margin-left: 1.2em;
+      margin-right: 1em;
+  }
+  label[for="message"] {
+      line-height: 2.5em;
+      margin-left: 1.2em;
+  }
+  label[for="email"] {
+      line-height: 2em;
+      margin-left: 1.2em;
+  }
+  input[type="email"] {
+      width: 95%;
+      margin-left: 2em;
+  }
+  input {
+      width: 100%;
+      padding-bottom: 1em;
+  }
+  textarea {
+      width: 95%;
+      padding-bottom: 3em;
+      margin-left: 2em;
+  }
+  button {
+      width: 15%;
+      padding: .5em;
+      font-size: 1.5rem;
+      display: block;
+      margin-left: 1.2em;
+  }
+    
+}
