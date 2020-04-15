@@ -4,9 +4,7 @@
 
 body {
   margin: 0;
-  
 }
-
 .logo img {
   display: block;
   margin-left: auto;
@@ -103,8 +101,6 @@ p {
 }
 .inner-footer {
   width: 100%;
-  margin: auto;
-  padding: 30px 10px;
   display: flex;
   flex-wrap: wrap;
   box-sizing: border-box;
@@ -116,7 +112,7 @@ p {
   box-sizing: border-box;
 }
 h2 {
-  padding-left: 75px;
+  padding-left: 5em;
 }
 h4 {
   padding: 10px 0;
@@ -125,11 +121,25 @@ h4 {
   text-transform: uppercase; 
   margin: 15px 0;
 }
+h5 {
+  margin: 0;
+  padding-top: 1em;
+  padding-bottom: .5em;
+}
 .footer-items p {
   color: #707070;
   font-size: 14px;
   text-align: justify;
-  font-family: 'Lora', serif;;
+  font-family: 'Lora', serif;
+}
+.border {
+  line-height: 2em;
+  padding-left: 2.3em;
+}
+.icons1 ul  {
+  padding-left: 8em;
+  padding-top: 3.5em;
+  letter-spacing: 15px;
 }
 ul {
   list-style: none;
