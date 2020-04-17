@@ -285,7 +285,6 @@ button:hover {
     margin-top: 2em;
     margin: auto;
     text-align: center;
-    display: block;
   }
 }
 @media(max-width:600px){
